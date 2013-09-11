@@ -1,66 +1,27 @@
 /* 
 Theme Name: Sacred Gifts
-Theme URI: http://cyberchimps.com/responsive-theme/
-Description: Responsive Theme is a flexible foundation with fluid grid system that adapts your website to mobile devices and the desktop or any other viewing environment. Theme features 9 Page Templates, 11 Widget Areas, 6 Template Layouts, 4 Menu Positions and more. Powerful but simple Theme Options for full CMS control with easy Logo Upload, Social Networking and Webmaster Tools etc. Responsive is WooCommerce Compatible, Multilingual Ready (WPML), RTL-Language Support, Retina-Ready, Search Engine Friendly, W3C Markup Validated and currently translated into 40 languages. Cross-Browser compatible. No paid memberships or clubs to get Responsive help. http://cyberchimps.com/forum/free/responsive/
+Theme URI: http://cyberchimps.com/guide/child-theme-example/
+Description: Responsive Child Theme
+Template: responsive
+Version: 1.0.0
+Author: CyberChimps
+Author URI: https://cyberchimps.com/
+License: GNU General Public License
+License URI: license.txt
 
-Version: 1.9.3.6
-Author: CyberChimps.com
-Author URI: http://cyberchimps.com
-Tags: white, black, gray, light, custom-menu, custom-header, custom-background, one-column, two-columns, left-sidebar, right-sidebar, flexible-width, theme-options, threaded-comments, full-width-template, sticky-post, translation-ready, flexible-width, rtl-language-support
-
-Text Domain: responsive
-
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-Responsive WordPress Theme, Copyright (C) 2003-2013 Emil Uzelac, CyberChimps Inc
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
---------------------------------------------------------------
-WARNING: (BEFORE YOU MAKE ANY CHANGES)
---------------------------------------------------------------
-Please do not edit style.css or any other Theme files or 
-Templates directly. If you do, your customizations will be lost 
-as soon as you update Responsive.
-
-WordPress and ThemeID highly recommends Child Theme.
-
-Read More:
-
-- http://codex.wordpress.org/Child_Themes  
-- http://themeid.com/docs/child-theme-example/
-- http://themeid.com/docs/category/child-theme/
-
---------------------------------------------------------------
-
-CSS Rules: Sorted alphabetically for better organization.
 */
-/* =Reset CSS (v2.0) http://meyerweb.com/eric/tools/css/reset/
--------------------------------------------------------------- */
-/* line 58, style.scss */
+/* line 18, style.scss */
 body {
   background: #f7f2e9;
   color: #000000;
 }
 
-/* line 69, style.scss */
+/* line 29, style.scss */
 .menu {
   background-color: transparent;
 }
 
-/* line 77, style.scss */
+/* line 37, style.scss */
 #text-2 {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -80,24 +41,24 @@ body {
   max-height: 125px;
 }
 
-/* line 92, style.scss */
+/* line 52, style.scss */
 #text-2 h1 {
   border-bottom-width: 4px;
   border-color: #f7f2e9;
 }
 
-/* line 97, style.scss */
+/* line 57, style.scss */
 #text-2 a {
   color: #f7f2e9;
 }
 
-/* line 101, style.scss */
+/* line 61, style.scss */
 #text-4 {
   min-height: 125px;
   max-height: 125px;
 }
 
-/* line 106, style.scss */
+/* line 66, style.scss */
 .widget-wrapper {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -112,7 +73,7 @@ body {
   padding: 20px;
 }
 
-/* line 117, style.scss */
+/* line 77, style.scss */
 .testimonials-widget-testimonials2 {
   color: #000000;
   overflow: scroll;
@@ -121,13 +82,13 @@ body {
   padding: 0px;
 }
 
-/* line 126, style.scss */
+/* line 86, style.scss */
 .widget-title,
 .widget-title-home h3 {
   display: none;
 }
 
-/* line 134, style.scss */
+/* line 94, style.scss */
 #featured {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
@@ -143,18 +104,18 @@ body {
   width: 99.893617021277%;
 }
 
-/* line 145, style.scss */
+/* line 105, style.scss */
 #featured-image {
   margin: 0 0 0 0;
 }
 
-/* line 153, style.scss */
+/* line 113, style.scss */
 blockquote {
   background-color: transparent;
   border-left-width: 0px;
 }
 
-/* line 162, style.scss */
+/* line 122, style.scss */
 .site-info {
   background-color: #d3cfca;
   color: #000000;
