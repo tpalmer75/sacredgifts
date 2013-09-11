@@ -1,0 +1,115 @@
+/*
+Mofication of Responsive Child Theme
+*/
+/* line 12, style.scss */
+body {
+  background: #f7f2e9;
+  color: #000000;
+}
+
+/* line 23, style.scss */
+.menu {
+  background-color: transparent;
+}
+
+/* line 31, style.scss */
+#text-2 {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  background-color: #974b35;
+  background-image: -webkit-gradient(radial, 45px 45px, 0, 45px 45px, 150, color-stop(1.33333%, #974b35), color-stop(100%, #974b35));
+  background-image: -webkit-radial-gradient(45px 45px, #974b35 2px, #974b35 150px);
+  background-image: -moz-radial-gradient(45px 45px, #974b35 2px, #974b35 150px);
+  background-image: -o-radial-gradient(45px 45px, #974b35 2px, #974b35 150px);
+  background-image: radial-gradient(45px 45px, #974b35 2px, #974b35 150px);
+  border: 0 0 0 0;
+  border-color: #f7f2e9;
+  border-radius: 0px;
+  margin: 0 0 20px;
+  padding: 20px;
+  color: #f7f2e9;
+  min-height: 125px;
+  max-height: 125px;
+}
+
+/* line 46, style.scss */
+#text-2 h1 {
+  border-bottom-width: 4px;
+  border-color: #f7f2e9;
+}
+
+/* line 51, style.scss */
+#text-2 a {
+  color: #f7f2e9;
+}
+
+/* line 55, style.scss */
+#text-4 {
+  min-height: 125px;
+  max-height: 125px;
+}
+
+/* line 60, style.scss */
+.widget-wrapper {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  background-color: #f9f9f9;
+  background-image: -webkit-gradient(radial, 45px 45px, 0, 45px 45px, 150, color-stop(1.33333%, #f7f2e9), color-stop(100%, #d3cfca));
+  background-image: -webkit-radial-gradient(45px 45px, #f7f2e9 2px, #d3cfca 150px);
+  background-image: -moz-radial-gradient(45px 45px, #f7f2e9 2px, #d3cfca 150px);
+  background-image: -o-radial-gradient(45px 45px, #f7f2e9 2px, #d3cfca 150px);
+  background-image: radial-gradient(45px 45px, #f7f2e9 2px, #d3cfca 150px);
+  border-radius: 0px;
+  margin: 0 0 20px;
+  padding: 20px;
+}
+
+/* line 71, style.scss */
+.testimonials-widget-testimonials2 {
+  color: #000000;
+  overflow: scroll;
+  min-height: 125px;
+  max-height: 125px;
+  padding: 0px;
+}
+
+/* line 80, style.scss */
+.widget-title,
+.widget-title-home h3 {
+  display: none;
+}
+
+/* line 88, style.scss */
+#featured {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  background-color: #d3cfca;
+  background-image: -webkit-gradient(radial, 45px 45px, 0, 45px 45px, 150, color-stop(1.33333%, #f7f2e9), color-stop(100%, #d3cfca));
+  background-image: -webkit-radial-gradient(45px 45px, #f7f2e9 2px, #d3cfca 150px);
+  background-image: -moz-radial-gradient(45px 45px, #f7f2e9 2px, #d3cfca 150px);
+  background-image: -o-radial-gradient(45px 45px, #f7f2e9 2px, #d3cfca 150px);
+  background-image: radial-gradient(45px 45px, #f7f2e9 2px, #d3cfca 150px);
+  border: 0px solid #e5e5e5;
+  border-radius: 0px;
+  padding-bottom: 0px;
+  width: 99.893617021277%;
+}
+
+/* line 99, style.scss */
+#featured-image {
+  margin: 0 0 0 0;
+}
+
+/* line 107, style.scss */
+blockquote {
+  background-color: transparent;
+  border-left-width: 0px;
+}
+
+/* line 116, style.scss */
+.site-info {
+  background-color: #d3cfca;
+  color: #000000;
+  min-height: 3em;
+  margin-top: -1em;
+}
