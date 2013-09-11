@@ -17,20 +17,35 @@ body {
 }
 
 /* line 29, style.scss */
+#logo a {
+  width: 250px;
+  height: 65px;
+  display: block;
+  background: transparent url("img/sacred_gifts_logo.svg") top left no-repeat;
+}
+
+/* line 43, style.scss */
 .menu {
   background-color: transparent;
 }
 
-/* line 37, style.scss */
-#text-2 {
+/* line 51, style.scss */
+.widget-wrapper {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  background-color: #f9f9f9;
+  border: 0 0 0 0;
+  background: transparent url("img/radial_gradient.svg") top left no-repeat;
+  border-radius: 0px;
+  margin: 0 0 20px;
+  padding: 20px;
+}
+
+/* line 64, style.scss */
+.tickets-button {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   background-color: #974b35;
-  background-image: -webkit-gradient(radial, 45px 45px, 0, 45px 45px, 150, color-stop(1.33333%, #974b35), color-stop(100%, #974b35));
-  background-image: -webkit-radial-gradient(45px 45px, #974b35 2px, #974b35 150px);
-  background-image: -moz-radial-gradient(45px 45px, #974b35 2px, #974b35 150px);
-  background-image: -o-radial-gradient(45px 45px, #974b35 2px, #974b35 150px);
-  background-image: radial-gradient(45px 45px, #974b35 2px, #974b35 150px);
   border: 0 0 0 0;
   border-color: #f7f2e9;
   border-radius: 0px;
@@ -41,39 +56,18 @@ body {
   max-height: 125px;
 }
 
-/* line 52, style.scss */
-#text-2 h1 {
-  border-bottom-width: 4px;
-  border-color: #f7f2e9;
-}
-
-/* line 57, style.scss */
-#text-2 a {
+/* line 78, style.scss */
+.tickets-button a {
   color: #f7f2e9;
 }
 
-/* line 61, style.scss */
-#text-4 {
+/* line 82, style.scss */
+.download-app {
   min-height: 125px;
   max-height: 125px;
 }
 
-/* line 66, style.scss */
-.widget-wrapper {
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  background-color: #f9f9f9;
-  background-image: -webkit-gradient(radial, 45px 45px, 0, 45px 45px, 150, color-stop(1.33333%, #f7f2e9), color-stop(100%, #d3cfca));
-  background-image: -webkit-radial-gradient(45px 45px, #f7f2e9 2px, #d3cfca 150px);
-  background-image: -moz-radial-gradient(45px 45px, #f7f2e9 2px, #d3cfca 150px);
-  background-image: -o-radial-gradient(45px 45px, #f7f2e9 2px, #d3cfca 150px);
-  background-image: radial-gradient(45px 45px, #f7f2e9 2px, #d3cfca 150px);
-  border-radius: 0px;
-  margin: 0 0 20px;
-  padding: 20px;
-}
-
-/* line 77, style.scss */
+/* line 87, style.scss */
 .testimonials-widget-testimonials2 {
   color: #000000;
   overflow: scroll;
@@ -82,43 +76,59 @@ body {
   padding: 0px;
 }
 
-/* line 86, style.scss */
+/* line 96, style.scss */
 .widget-title,
 .widget-title-home h3 {
   display: none;
 }
 
-/* line 94, style.scss */
+/* line 104, style.scss */
 #featured {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   background-color: #d3cfca;
-  background-image: -webkit-gradient(radial, 45px 45px, 0, 45px 45px, 150, color-stop(1.33333%, #f7f2e9), color-stop(100%, #d3cfca));
-  background-image: -webkit-radial-gradient(45px 45px, #f7f2e9 2px, #d3cfca 150px);
-  background-image: -moz-radial-gradient(45px 45px, #f7f2e9 2px, #d3cfca 150px);
-  background-image: -o-radial-gradient(45px 45px, #f7f2e9 2px, #d3cfca 150px);
-  background-image: radial-gradient(45px 45px, #f7f2e9 2px, #d3cfca 150px);
+  background: transparent url("img/radial_gradient.svg") top left no-repeat;
   border: 0px solid #e5e5e5;
   border-radius: 0px;
   padding-bottom: 0px;
   width: 99.893617021277%;
 }
 
-/* line 105, style.scss */
+/* line 115, style.scss */
 #featured-image {
   margin: 0 0 0 0;
 }
 
-/* line 113, style.scss */
+/* line 123, style.scss */
 blockquote {
   background-color: transparent;
   border-left-width: 0px;
 }
 
-/* line 122, style.scss */
+/* line 132, style.scss */
 .site-info {
   background-color: #d3cfca;
   color: #000000;
   min-height: 3em;
   margin-top: -1em;
+}
+
+/*
+ * Image replacement
+ */
+/* line 146, style.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+
+/* line 154, style.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
 }

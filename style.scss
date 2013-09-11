@@ -23,6 +23,20 @@ body {
 
 
 //=====================
+//     HEADER
+//=====================
+
+#logo a {
+  width: 250px;
+  height: 65px;
+  display: block;
+
+  background: transparent url('img/sacred_gifts_logo.svg') top left no-repeat;
+}
+
+
+
+//=====================
 //     MENU
 //=====================
 
@@ -34,11 +48,23 @@ body {
 //   WIDGET
 //===================
 
-#text-2 {
-    -webkit-border-radius: 0px;
+.widget-wrapper {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  background-color: #f9f9f9;
+  border: 0 0 0 0;
+  background: transparent url('img/radial_gradient.svg') top left no-repeat;
+  border-radius: 0px;
+  margin: 0 0 20px;
+  padding: 20px;
+}
+
+
+
+.tickets-button {
+  -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   background-color: #974b35;
-  @include background-image(radial-gradient(45px 45px, #974b35 2px, #974b35 150px));
   border: 0 0 0 0;
   border-color: #f7f2e9;
   border-radius: 0px;
@@ -49,35 +75,19 @@ body {
   max-height: 125px;
 }
 
-#text-2 h1 { ////To create the button decoration. Why doesn't the border show up?
-  border-bottom-width: 4px;
-  border-color: #f7f2e9;
-}
-
-#text-2 a {
+.tickets-button a {
   color: #f7f2e9;
 }
 
-#text-4 {
+.download-app {
   min-height: 125px;
   max-height: 125px;
 }
 
-.widget-wrapper {
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  background-color: #f9f9f9;
-  @include background-image(radial-gradient(45px 45px, #f7f2e9 2px, #d3cfca 150px));
-  border-radius: 0px;
-  margin: 0 0 20px;
-  padding: 20px;
-}
-
-
  .testimonials-widget-testimonials2 {
   color: #000000;
   overflow: scroll;
-  min-height: 125px;  // No response...
+  min-height: 125px;
   max-height: 125px;
   padding: 0px
 }
@@ -95,7 +105,7 @@ body {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   background-color: #d3cfca;
-  @include background-image(radial-gradient(45px 45px, #f7f2e9 2px, #d3cfca 150px));
+  background: transparent url('img/radial_gradient.svg') top left no-repeat;
   border: 0px solid #e5e5e5;
   border-radius: 0px;
   padding-bottom: 0px;
@@ -126,3 +136,24 @@ blockquote {
   margin-top: -1em;
 }
 
+
+
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
