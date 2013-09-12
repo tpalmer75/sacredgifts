@@ -13,7 +13,7 @@
     </div><!-- #main .wrapper -->
     <footer id="colophon" role="contentinfo">
         <div class="site-info">
-<p class=footer align="center">Contact:</p>
+<p class="footer" align="center"><a href="moa.byu.edu">BYU Museum of Art</a></p>
         </div><!-- .site-info -->
     </footer><!-- #colophon -->
 </div><!-- #page -->

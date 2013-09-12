@@ -57,7 +57,7 @@ a {
   -moz-border-radius: 0px;
   background-color: #f9f9f9;
   border: 0 0 0 0;
-  background: transparent url('img/radial_gradient.svg') no-repeat;
+  background: transparent url('img/radial_gradient.svg') -5% -15% no-repeat;
   border-radius: 0px;
   margin: 0 0 20px;
   padding: 20px;
@@ -67,6 +67,7 @@ a {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   background-color: #974b35;
+  background-image: none;
   border: 0 0 0 0;
   border-color: #f7f2e9;
   border-radius: 0px;

@@ -40,7 +40,7 @@ a {
   -moz-border-radius: 0px;
   background-color: #f9f9f9;
   border: 0 0 0 0;
-  background: transparent url("img/radial_gradient.svg") no-repeat;
+  background: transparent url("img/radial_gradient.svg") -5% -15% no-repeat;
   border-radius: 0px;
   margin: 0 0 20px;
   padding: 20px;
@@ -51,6 +51,7 @@ a {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   background-color: #974b35;
+  background-image: none;
   border: 0 0 0 0;
   border-color: #f7f2e9;
   border-radius: 0px;
@@ -61,18 +62,18 @@ a {
   max-height: 125px;
 }
 
-/* line 80, style.scss */
+/* line 81, style.scss */
 #tickets-button a {
   color: #f7f2e9;
 }
 
-/* line 84, style.scss */
+/* line 85, style.scss */
 #download-app {
   min-height: 125px;
   max-height: 125px;
 }
 
-/* line 89, style.scss */
+/* line 90, style.scss */
 .testimonials-widget-testimonials2 {
   color: #000000;
   overflow: scroll;
@@ -81,13 +82,13 @@ a {
   padding: 0px;
 }
 
-/* line 98, style.scss */
+/* line 99, style.scss */
 .widget-title,
 .widget-title-home h3 {
   display: none;
 }
 
-/* line 106, style.scss */
+/* line 107, style.scss */
 #featured {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
@@ -99,18 +100,18 @@ a {
   width: 99.893617021277%;
 }
 
-/* line 117, style.scss */
+/* line 118, style.scss */
 #featured-image {
   margin: 0 0 0 0;
 }
 
-/* line 125, style.scss */
+/* line 126, style.scss */
 blockquote {
   background-color: transparent;
   border-left-width: 0px;
 }
 
-/* line 134, style.scss */
+/* line 135, style.scss */
 .site-info {
   background-color: #d3cfca;
   color: #000000;
@@ -121,7 +122,7 @@ blockquote {
 /*
  * Image replacement
  */
-/* line 148, style.scss */
+/* line 149, style.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -130,7 +131,7 @@ blockquote {
   *text-indent: -9999px;
 }
 
-/* line 156, style.scss */
+/* line 157, style.scss */
 .ir:before {
   content: "";
   display: block;
