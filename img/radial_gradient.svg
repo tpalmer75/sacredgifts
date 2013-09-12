@@ -3,8 +3,8 @@
   <defs>
     <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
       <stop offset="0%" style="stop-color:#f7f2e9" />
-      <stop offset="100%" style="stop-color:#d3cfca" />
+      <stop offset="300%" style="stop-color:#d3cfca" />
     </radialGradient>
   </defs>
-  <rect width="100%" height="100%" fill="url(#grad1)" />
+  <rect width="110%" height="130%" fill="url(#grad1)" />
 </svg>

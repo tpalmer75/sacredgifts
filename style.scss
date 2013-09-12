@@ -43,6 +43,10 @@ body {
 .menu {
   background-color:transparent;
 }
+a {
+  color: #974b35
+}
+
 
 //===================
 //   WIDGET
@@ -53,15 +57,13 @@ body {
   -moz-border-radius: 0px;
   background-color: #f9f9f9;
   border: 0 0 0 0;
-  background: transparent url('img/radial_gradient.svg') top left no-repeat;
+  background: transparent url('img/radial_gradient.svg') no-repeat;
   border-radius: 0px;
   margin: 0 0 20px;
   padding: 20px;
 }
 
-
-
-.tickets-button {
+#tickets-button {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   background-color: #974b35;
@@ -75,11 +77,11 @@ body {
   max-height: 125px;
 }
 
-.tickets-button a {
+#tickets-button a {
   color: #f7f2e9;
 }
 
-.download-app {
+#download-app {
   min-height: 125px;
   max-height: 125px;
 }

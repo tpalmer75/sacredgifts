@@ -29,20 +29,25 @@ body {
   background-color: transparent;
 }
 
-/* line 51, style.scss */
+/* line 46, style.scss */
+a {
+  color: #974b35;
+}
+
+/* line 55, style.scss */
 .widget-wrapper {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   background-color: #f9f9f9;
   border: 0 0 0 0;
-  background: transparent url("img/radial_gradient.svg") top left no-repeat;
+  background: transparent url("img/radial_gradient.svg") no-repeat;
   border-radius: 0px;
   margin: 0 0 20px;
   padding: 20px;
 }
 
-/* line 64, style.scss */
-.tickets-button {
+/* line 66, style.scss */
+#tickets-button {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   background-color: #974b35;
@@ -56,18 +61,18 @@ body {
   max-height: 125px;
 }
 
-/* line 78, style.scss */
-.tickets-button a {
+/* line 80, style.scss */
+#tickets-button a {
   color: #f7f2e9;
 }
 
-/* line 82, style.scss */
-.download-app {
+/* line 84, style.scss */
+#download-app {
   min-height: 125px;
   max-height: 125px;
 }
 
-/* line 87, style.scss */
+/* line 89, style.scss */
 .testimonials-widget-testimonials2 {
   color: #000000;
   overflow: scroll;
@@ -76,13 +81,13 @@ body {
   padding: 0px;
 }
 
-/* line 96, style.scss */
+/* line 98, style.scss */
 .widget-title,
 .widget-title-home h3 {
   display: none;
 }
 
-/* line 104, style.scss */
+/* line 106, style.scss */
 #featured {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
@@ -94,18 +99,18 @@ body {
   width: 99.893617021277%;
 }
 
-/* line 115, style.scss */
+/* line 117, style.scss */
 #featured-image {
   margin: 0 0 0 0;
 }
 
-/* line 123, style.scss */
+/* line 125, style.scss */
 blockquote {
   background-color: transparent;
   border-left-width: 0px;
 }
 
-/* line 132, style.scss */
+/* line 134, style.scss */
 .site-info {
   background-color: #d3cfca;
   color: #000000;
@@ -116,7 +121,7 @@ blockquote {
 /*
  * Image replacement
  */
-/* line 146, style.scss */
+/* line 148, style.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -125,7 +130,7 @@ blockquote {
   *text-indent: -9999px;
 }
 
-/* line 154, style.scss */
+/* line 156, style.scss */
 .ir:before {
   content: "";
   display: block;
