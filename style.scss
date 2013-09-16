@@ -10,10 +10,17 @@ Author URI: https://cyberchimps.com/
 License: GNU General Public License
 License URI: license.txt
 
+
+
+
 */
 //=======================
 //      BODY
 //=======================
+
+html {
+  background: #d3cfca;
+}
 
 body {
 	background: #f7f2e9;
@@ -36,9 +43,9 @@ body {
 
 
 
-//=====================
+//====================
 //     MENU
-//=====================
+//====================
 
 .menu {
   background-color:transparent;
@@ -87,6 +94,10 @@ a {
   max-height: 125px;
 }
 
+#download-app h3 {
+  line-height: 18px
+}
+
  .testimonials-widget-testimonials2 {
   color: #000000;
   overflow: scroll;
@@ -115,8 +126,25 @@ a {
   width: 99.893617021277%;
 }
 
+.featured-title {
+  display:none
+}
+
+#featured p {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 18px;
+  padding: 0 0px 0 0px;
+  text-align: center;
+}
+
+#artist-title p {
+  font-size: 24px;
+  padding: 0 40px 0 40px;
+}
+
 #featured-image {
-  margin: 0 0 0 0;
+  margin: 0 0 0 20px;
 }
 
 //===================
@@ -137,6 +165,7 @@ blockquote {
   color: #000000;
   min-height: 3em;
   margin-top: -1em;
+  margin: 0 0 0 0;
 }
 
 
