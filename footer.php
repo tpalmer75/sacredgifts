@@ -11,12 +11,13 @@
  */
 ?>
     </div><!-- #main .wrapper -->
+    </div><!-- #page -->
     <footer id="colophon" role="contentinfo">
         <div class="site-info">
 <p class="footer" align="center"><a href="moa.byu.edu">BYU Museum of Art</a></p>
         </div><!-- .site-info -->
     </footer><!-- #colophon -->
-</div><!-- #page -->
+
 
 <?php wp_footer(); ?>
 </body>

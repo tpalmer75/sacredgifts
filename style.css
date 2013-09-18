@@ -42,7 +42,7 @@ a {
   color: #974b35;
 }
 
-/* line 62, style.scss */
+/* line 61, style.scss */
 .widget-wrapper {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -54,7 +54,7 @@ a {
   padding: 20px;
 }
 
-/* line 73, style.scss */
+/* line 72, style.scss */
 #tickets-button {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -70,38 +70,44 @@ a {
   max-height: 125px;
 }
 
-/* line 88, style.scss */
+/* line 87, style.scss */
 #tickets-button a {
   color: #f7f2e9;
 }
 
-/* line 92, style.scss */
+/* line 91, style.scss */
 #download-app {
   min-height: 125px;
   max-height: 125px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* line 97, style.scss */
-#download-app h3 {
-  line-height: 18px;
+/* line 99, style.scss */
+.download-app-wrapper {
+  margin: auto;
 }
 
-/* line 101, style.scss */
+/* line 103, style.scss */
 .testimonials-widget-testimonials2 {
   color: #000000;
   overflow: scroll;
   min-height: 125px;
   max-height: 125px;
   padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
 }
 
-/* line 110, style.scss */
+/* line 115, style.scss */
 .widget-title,
 .widget-title-home h3 {
   display: none;
 }
 
-/* line 118, style.scss */
+/* line 123, style.scss */
 #featured {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
@@ -113,12 +119,12 @@ a {
   width: 99.893617021277%;
 }
 
-/* line 129, style.scss */
+/* line 134, style.scss */
 .featured-title {
   display: none;
 }
 
-/* line 133, style.scss */
+/* line 138, style.scss */
 #featured p {
   font-size: 14px;
   font-weight: 200;
@@ -127,24 +133,24 @@ a {
   text-align: center;
 }
 
-/* line 141, style.scss */
+/* line 146, style.scss */
 #artist-title p {
   font-size: 24px;
   padding: 0 40px 0 40px;
 }
 
-/* line 146, style.scss */
+/* line 151, style.scss */
 #featured-image {
   margin: 0 0 0 20px;
 }
 
-/* line 154, style.scss */
+/* line 159, style.scss */
 blockquote {
   background-color: transparent;
   border-left-width: 0px;
 }
 
-/* line 163, style.scss */
+/* line 168, style.scss */
 .site-info {
   background-color: #d3cfca;
   color: #000000;
@@ -153,10 +159,15 @@ blockquote {
   margin: 0 0 0 0;
 }
 
+/* line 176, style.scss */
+.site-info a {
+  color: #000000;
+}
+
 /*
  * Image replacement
  */
-/* line 178, style.scss */
+/* line 187, style.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -165,7 +176,7 @@ blockquote {
   *text-indent: -9999px;
 }
 
-/* line 186, style.scss */
+/* line 195, style.scss */
 .ir:before {
   content: "";
   display: block;
