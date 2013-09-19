@@ -14,7 +14,13 @@
     </div><!-- #page -->
     <footer id="colophon" role="contentinfo">
         <div class="site-info">
-<p class="footer" align="center"><a href="moa.byu.edu">BYU Museum of Art</a></p>
+<div class="footer" align="center">
+		<div class="footer-1">MOA</div>
+		<div class="footer-2">North Campus Dr<br />Provo, UT 84602</div>
+		<div class="footer-3">Contact: 801-422-8258</div>
+		<div class="footer-4">Email: moa_sacredgifts@byu.edu</div>
+	</div>
+	</div>
         </div><!-- .site-info -->
     </footer><!-- #colophon -->
 

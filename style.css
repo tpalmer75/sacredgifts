@@ -15,16 +15,26 @@ License URI: license.txt
 */
 /* line 21, style.scss */
 html {
-  background: #d3cfca;
+  background: #998158;
 }
 
 /* line 25, style.scss */
 body {
-  background: #f7f2e9;
+  background: #d9d5d0;
   color: #000000;
 }
 
-/* line 36, style.scss */
+/* line 30, style.scss */
+.front-page #wrapper {
+  margin: 20px 0px 0px 0px;
+}
+
+/* line 34, style.scss */
+#wrapper {
+  margin: 20px 0px 0px 0px;
+}
+
+/* line 43, style.scss */
 #logo a {
   width: 250px;
   height: 65px;
@@ -32,36 +42,41 @@ body {
   background: transparent url("img/sacred_gifts_logo.svg") top left no-repeat;
 }
 
-/* line 50, style.scss */
+/* line 51, style.scss */
+#header {
+  background-color: #998158;
+}
+
+/* line 61, style.scss */
 .menu {
   background-color: transparent;
 }
 
-/* line 53, style.scss */
+/* line 64, style.scss */
 a {
   color: #974b35;
 }
 
-/* line 61, style.scss */
+/* line 72, style.scss */
 .widget-wrapper {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   background-color: #f9f9f9;
-  border: 0 0 0 0;
+  border-width: 0 0 0 0;
   background: transparent url("img/radial_gradient.svg") -5% -15% no-repeat;
   border-radius: 0px;
   margin: 0 0 20px;
   padding: 20px;
 }
 
-/* line 72, style.scss */
+/* line 83, style.scss */
 #tickets-button {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   background-color: #974b35;
   background-image: none;
   border: 0 0 0 0;
-  border-color: #f7f2e9;
+  border-color: none;
   border-radius: 0px;
   margin: 0 0 20px;
   padding: 20px;
@@ -70,12 +85,12 @@ a {
   max-height: 125px;
 }
 
-/* line 87, style.scss */
+/* line 98, style.scss */
 #tickets-button a {
   color: #f7f2e9;
 }
 
-/* line 91, style.scss */
+/* line 102, style.scss */
 #download-app {
   min-height: 125px;
   max-height: 125px;
@@ -84,12 +99,12 @@ a {
   margin-right: auto;
 }
 
-/* line 99, style.scss */
+/* line 110, style.scss */
 .download-app-wrapper {
   margin: auto;
 }
 
-/* line 103, style.scss */
+/* line 114, style.scss */
 .testimonials-widget-testimonials2 {
   color: #000000;
   overflow: scroll;
@@ -101,13 +116,13 @@ a {
   max-width: 400px;
 }
 
-/* line 115, style.scss */
+/* line 126, style.scss */
 .widget-title,
 .widget-title-home h3 {
   display: none;
 }
 
-/* line 123, style.scss */
+/* line 135, style.scss */
 #featured {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
@@ -119,12 +134,12 @@ a {
   width: 99.893617021277%;
 }
 
-/* line 134, style.scss */
+/* line 146, style.scss */
 .featured-title {
   display: none;
 }
 
-/* line 138, style.scss */
+/* line 150, style.scss */
 #featured p {
   font-size: 14px;
   font-weight: 200;
@@ -133,41 +148,99 @@ a {
   text-align: center;
 }
 
-/* line 146, style.scss */
+/* line 158, style.scss */
+#featured hr {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  height: 1px;
+  color: #000000;
+  background-color: #000000;
+  line-height: 1px;
+}
+
+/* line 167, style.scss */
 #artist-title p {
   font-size: 24px;
   padding: 0 40px 0 40px;
 }
 
-/* line 151, style.scss */
-#featured-image {
-  margin: 0 0 0 20px;
+/* line 172, style.scss */
+#featured-subtitle img {
+  vertical-align: middle;
+  display: block;
 }
 
-/* line 159, style.scss */
+/* line 177, style.scss */
+#featured-image {
+  margin: 0 20px 0 20px;
+}
+
+/* line 185, style.scss */
 blockquote {
   background-color: transparent;
   border-left-width: 0px;
 }
 
-/* line 168, style.scss */
-.site-info {
-  background-color: #d3cfca;
-  color: #000000;
-  min-height: 3em;
-  margin-top: -1em;
-  margin: 0 0 0 0;
+/* line 208, style.scss */
+.site-info.footer p {
+  position: relative;
+  left: 50%;
 }
 
-/* line 176, style.scss */
+/* line 213, style.scss */
 .site-info a {
-  color: #000000;
+  color: #d9d5d0;
+}
+
+/* line 217, style.scss */
+.footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* line 226, style.scss */
+.footer-1 {
+  display: block;
+  width: 25%;
+  float: left;
+  min-width: 150px;
+  max-width: 240px;
+}
+
+/* line 235, style.scss */
+.footer-2 {
+  display: block;
+  width: 25%;
+  float: left;
+  min-width: 150px;
+  max-width: 240px;
+}
+
+/* line 243, style.scss */
+.footer-3 {
+  display: block;
+  width: 25%;
+  float: left;
+  min-width: 150px;
+  max-width: 240px;
+}
+
+/* line 251, style.scss */
+.footer-4 {
+  display: block;
+  width: 25%;
+  float: left;
+  min-width: 150px;
+  max-width: 240px;
 }
 
 /*
  * Image replacement
  */
-/* line 187, style.scss */
+/* line 263, style.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -176,7 +249,7 @@ blockquote {
   *text-indent: -9999px;
 }
 
-/* line 195, style.scss */
+/* line 271, style.scss */
 .ir:before {
   content: "";
   display: block;

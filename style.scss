@@ -19,14 +19,21 @@ License URI: license.txt
 //=======================
 
 html {
-  background: #d3cfca;
+  background: #998158;
 }
 
 body {
-	background: #f7f2e9;
+	background: #d9d5d0;
   color: #000000;
 }
 
+.front-page #wrapper {
+  margin: 20px 0px 0px 0px;
+}
+
+#wrapper {
+  margin: 20px 0px 0px 0px;
+}
 
 
 //=====================
@@ -39,6 +46,10 @@ body {
   display: block;
 
   background: transparent url('img/sacred_gifts_logo.svg') top left no-repeat;
+}
+
+#header {
+  background-color:#998158;
 }
 
 
@@ -62,7 +73,7 @@ a {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   background-color: #f9f9f9;
-  border: 0 0 0 0;
+  border-width: 0 0 0 0;
   background: transparent url('img/radial_gradient.svg') -5% -15% no-repeat;
   border-radius: 0px;
   margin: 0 0 20px;
@@ -75,7 +86,7 @@ a {
   background-color: #974b35;
   background-image: none;
   border: 0 0 0 0;
-  border-color: #f7f2e9;
+  border-color: none;
   border-radius: 0px;
   margin: 0 0 20px;
   padding: 20px;
@@ -120,6 +131,7 @@ a {
 //  FEATURED CONTENT
 //====================
 
+
 #featured {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
@@ -143,13 +155,27 @@ a {
   text-align: center;
 }
 
+#featured hr {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  height: 1px;
+  color: #000000;
+  background-color: #000000;
+  line-height: 1px;
+}
+
 #artist-title p {
   font-size: 24px;
   padding: 0 40px 0 40px;
 }
 
+#featured-subtitle img {
+  vertical-align: middle;
+  display: block;
+}
+
 #featured-image {
-  margin: 0 0 0 20px;
+  margin: 0 20px 0 20px;
 }
 
 //===================
@@ -165,20 +191,70 @@ blockquote {
 //     FOOTER
 //===================
 
-.site-info {
-  background-color: #d3cfca;
-  color: #000000;
-  min-height: 3em;
-  margin-top: -1em;
-  margin: 0 0 0 0;
+//.site-info {
+//  background-color: #998158;
+//  color: #000000;
+//  min-height: 3em;
+//  margin-top: -1em;
+//  margin: 0 0 0 0;
+//  padding: 0 0 0 0;
+//}
+
+//.site-info p {
+//  padding: 20px 0 20px 0;
+
+//}
+
+.site-info.footer p {
+  position: relative;
+  left: 50%;
 }
 
 .site-info a {
-  color: #000000;
+  color: #d9d5d0;
+}
+
+.footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
 }
 
 
+.footer-1 {
+  display: block;
+  width: 25%;
+  float: left;
+  min-width: 150px;
+  max-width: 240px;
 
+}
+
+.footer-2 {
+  display: block;
+  width: 25%;
+  float: left;
+  min-width: 150px;
+  max-width: 240px;
+}
+
+.footer-3 {
+  display: block;
+  width: 25%;
+  float: left;
+  min-width: 150px;
+  max-width: 240px;
+}
+
+.footer-4 {
+  display: block;
+  width: 25%;
+  float: left;
+  min-width: 150px;
+  max-width: 240px;
+}
 
 /*
  * Image replacement
