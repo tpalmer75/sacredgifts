@@ -20,8 +20,8 @@ html {
 
 /* line 25, style.scss */
 body {
-  background: #d9d5d0;
-  color: #000000;
+  background: #d7d5d0;
+  color: #777777;
 }
 
 /* line 30, style.scss */
@@ -47,30 +47,74 @@ body {
   background-color: #998158;
 }
 
-/* line 61, style.scss */
+/* line 55, style.scss */
+#header-width {
+  max-width: 960px;
+  margin: auto;
+}
+
+/* line 65, style.scss */
 .menu {
+  background-color: #998158;
+  background-image: none;
+  /*  background-image: -webkit-linear-gradient(top, #585858, #3d3d3d);
+    background-image: -moz-linear-gradient(top, #585858, #3d3d3d);
+    background-image: -ms-linear-gradient(top, #585858, #3d3d3d);
+    background-image: -o-linear-gradient(top, #585858, #3d3d3d);
+    background-image: linear-gradient(top, #585858, #3d3d3d); */
+  clear: both;
+  margin: 0 auto;
+}
+
+/* line 79, style.scss */
+.menu a {
+  border-left: 0px;
+  color: #f7f2e9;
+  cursor: pointer;
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  height: 45px;
+  line-height: 45px;
+  margin: 0;
+  padding: 0 0.9em;
+  position: relative;
+  text-decoration: none;
+  text-shadow: none;
+  white-space: nowrap;
+}
+
+/* line 96, style.scss */
+.menu a:hover {
+  background-color: transparent;
+  background-image: none;
+  color: #ffffff;
+}
+
+/* line 102, style.scss */
+ul.menu > li:hover {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+/* line 107, style.scss */
+.menu .current_page_item a,
+.menu .current-menu-item a {
   background-color: transparent;
 }
 
-/* line 64, style.scss */
-a {
-  color: #974b35;
-}
-
-/* line 72, style.scss */
+/* line 118, style.scss */
 .widget-wrapper {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  background-color: #f9f9f9;
+  background-color: #c9c5c0;
   border-width: 0 0 0 0;
-  background: transparent url("img/radial_gradient.svg") -5% -15% no-repeat;
   border-radius: 0px;
   margin: 0 0 20px;
   padding: 20px;
 }
 
-/* line 83, style.scss */
-#tickets-button {
+/*#tickets-button {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   background-color: #974b35;
@@ -84,29 +128,34 @@ a {
   min-height: 125px;
   max-height: 125px;
 }
-
-/* line 98, style.scss */
-#tickets-button a {
-  color: #f7f2e9;
+*/
+/* line 145, style.scss */
+#tickets-button {
+  min-height: 125px;
 }
 
-/* line 102, style.scss */
+/* line 149, style.scss */
+#tickets-button a {
+  color: #777777;
+}
+
+/* line 153, style.scss */
 #download-app {
   min-height: 125px;
   max-height: 125px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* line 110, style.scss */
-.download-app-wrapper {
   margin: auto;
 }
 
-/* line 114, style.scss */
+/* line 160, style.scss */
+#app-download-wrapper {
+  width: 165px;
+  margin: auto;
+}
+
+/* line 165, style.scss */
 .testimonials-widget-testimonials2 {
-  color: #000000;
+  color: #777777;
   overflow: scroll;
   min-height: 125px;
   max-height: 125px;
@@ -116,92 +165,117 @@ a {
   max-width: 400px;
 }
 
-/* line 126, style.scss */
+/* line 177, style.scss */
 .widget-title,
 .widget-title-home h3 {
   display: none;
 }
 
-/* line 135, style.scss */
+/* line 186, style.scss */
 #featured {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
-  background-color: #d3cfca;
-  background: transparent url("img/radial_gradient.svg") top left no-repeat;
+  background-color: #c9c5c0;
   border: 0px solid #e5e5e5;
   border-radius: 0px;
   padding-bottom: 0px;
   width: 99.893617021277%;
 }
 
-/* line 146, style.scss */
+/* line 197, style.scss */
 .featured-title {
   display: none;
 }
 
-/* line 150, style.scss */
+/* line 201, style.scss */
 #featured p {
   font-size: 14px;
   font-weight: 200;
   line-height: 18px;
   padding: 0 0px 0 0px;
   text-align: center;
+  max-width: 400px;
+  margin: auto;
 }
 
-/* line 158, style.scss */
+/* line 211, style.scss */
 #featured hr {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   height: 1px;
-  color: #000000;
+  color: #898888;
   background-color: #000000;
   line-height: 1px;
 }
 
-/* line 167, style.scss */
+/* line 220, style.scss */
 #artist-title p {
   font-size: 24px;
   padding: 0 40px 0 40px;
 }
 
-/* line 172, style.scss */
+/* line 225, style.scss */
 #featured-subtitle img {
   vertical-align: middle;
   display: block;
 }
 
-/* line 177, style.scss */
+/* line 230, style.scss */
 #featured-image {
   margin: 0 20px 0 20px;
 }
 
-/* line 185, style.scss */
+/* line 234, style.scss */
+#featured.grid.col-300 {
+  margin-right: 0px;
+}
+
+/* line 242, style.scss */
+#wrapper {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  background-color: #c9c5c0;
+  border: none;
+  border-radius: 0px;
+  clear: both;
+  margin: 20px auto 20px auto;
+  padding: 0 20px 20px 20px;
+  position: relative;
+}
+
+/* line 258, style.scss */
 blockquote {
   background-color: transparent;
   border-left-width: 0px;
 }
 
-/* line 208, style.scss */
+/* line 281, style.scss */
+.site-info {
+  color: #f7f2e9;
+}
+
+/* line 285, style.scss */
 .site-info.footer p {
   position: relative;
   left: 50%;
 }
 
-/* line 213, style.scss */
+/* line 290, style.scss */
 .site-info a {
-  color: #d9d5d0;
+  color: #f7f2e9;
 }
 
-/* line 217, style.scss */
+/* line 294, style.scss */
 .footer {
   display: block;
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
   text-align: center;
 }
 
-/* line 226, style.scss */
+/* line 304, style.scss */
 .footer-1 {
   display: block;
   width: 25%;
@@ -210,7 +284,7 @@ blockquote {
   max-width: 240px;
 }
 
-/* line 235, style.scss */
+/* line 313, style.scss */
 .footer-2 {
   display: block;
   width: 25%;
@@ -219,7 +293,7 @@ blockquote {
   max-width: 240px;
 }
 
-/* line 243, style.scss */
+/* line 321, style.scss */
 .footer-3 {
   display: block;
   width: 25%;
@@ -228,7 +302,7 @@ blockquote {
   max-width: 240px;
 }
 
-/* line 251, style.scss */
+/* line 329, style.scss */
 .footer-4 {
   display: block;
   width: 25%;
@@ -240,7 +314,7 @@ blockquote {
 /*
  * Image replacement
  */
-/* line 263, style.scss */
+/* line 341, style.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -249,7 +323,7 @@ blockquote {
   *text-indent: -9999px;
 }
 
-/* line 271, style.scss */
+/* line 349, style.scss */
 .ir:before {
   content: "";
   display: block;
