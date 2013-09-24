@@ -32,7 +32,7 @@ body {
 }
 
 #wrapper {
-  margin: 20px 0px 0px 0px;
+  margin: 20px 0px 40px 0px;
 }
 
 
@@ -50,6 +50,7 @@ body {
 
 #header {
   background-color:#998158;
+  box-shadow: -2px 5px 20px #93928f;
 }
 
 #header-width {
@@ -82,7 +83,7 @@ body {
   cursor: pointer;
   display: block;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 400;
   height: 45px;
   line-height: 45px;
   margin: 0;
@@ -91,6 +92,7 @@ body {
   text-decoration: none;
   text-shadow: none;
   white-space: nowrap;
+  text-transform: uppercase;
 }
 
 .menu a:hover {
@@ -102,6 +104,7 @@ body {
 ul.menu > li:hover {
   background-color: transparent;
   color: #ffffff;
+
 }
 
 .menu .current_page_item a,
@@ -109,6 +112,50 @@ ul.menu > li:hover {
   background-color: transparent;
 }
 
+.menu li li { //menu drop down item
+  background: #974B35;
+  background-image: none;
+  border: 0px;
+  color: #f7f2e9;
+  filter: none;
+  margin: -1px 0 1px 0;
+  width: auto;
+}
+
+.menu li li a { //menu drop down item link
+  background: transparent !important;
+  border: none;
+  color: #f7f2e9;
+  font-size: 12px;
+  font-weight: 400;
+  height: auto;
+  height: 20px;
+  line-height: 20px;
+  padding: 5px 10px;
+  text-shadow: none;
+  white-space: nowrap;
+}
+
+.menu li li a:hover { //menu drop down item selected
+  background: #974B35 !important;
+  background-image: none;
+  border: none;
+  color: #FFFFFF;
+  filter: none;
+  font-weight: 700;
+}
+
+//===================
+//  Sub header Menu
+//===================
+
+.sub-header-menu {
+  background-color: #974B35;
+  border: 0px;
+  border-top: none;
+  clear: both;
+  margin: 0 auto;
+}
 
 
 //===================
@@ -158,8 +205,23 @@ ul.menu > li:hover {
 }
 
 #app-download-wrapper {
-  width: 165px;
+ // width: 266px;
   margin: auto;
+  max-width: 500px;
+  min-width: 266px;
+  display: inline-block;
+}
+
+#left {
+  height: 100px;
+  float: left;
+  width: 33%;
+}
+
+#right {
+  height: 100px;
+  float: left;
+  width: 67%;
 }
 
  .testimonials-widget-testimonials2 {
@@ -170,7 +232,7 @@ ul.menu > li:hover {
   padding: 0px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 
@@ -231,7 +293,7 @@ ul.menu > li:hover {
   margin: 0 20px 0 20px;
 }
 
-#featured.grid.col-300 {
+#container#wrapper#featured.grid.col-300 {   ///why doesn't this work?
   margin-right: 0px;
 }
 
@@ -249,6 +311,10 @@ ul.menu > li:hover {
   margin: 20px auto 20px auto;
   padding: 0 20px 20px 20px;
   position: relative;
+}
+
+.post-meta {
+  display: none;
 }
 
 //===================
@@ -280,6 +346,7 @@ blockquote {
 
 .site-info {
   color: #f7f2e9;
+  box-shadow: 0px -5px 20px #93928f;
 }
 
 .site-info.footer p {
@@ -297,7 +364,11 @@ blockquote {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
+  padding: 0px 20px 0px 20px;
+  vertical-align: middle;
+  box-shadow: 0px -5px 20px #93928f;
 }
 
 
@@ -305,33 +376,41 @@ blockquote {
   display: block;
   width: 25%;
   float: left;
-  min-width: 150px;
-  max-width: 240px;
+//  margin: auto;
+  min-width: 200px;
+  vertical-align: top;
+  padding: 0px 0px 10px 0px;
 
 }
 
 .footer-2 {
   display: block;
-  width: 25%;
+  width: 20%;
   float: left;
+//  margin: auto;
   min-width: 150px;
-  max-width: 240px;
+  vertical-align: middle;
+  padding: 10px 0px 10px 0px;
 }
 
 .footer-3 {
   display: block;
-  width: 25%;
+  width: 30%;
   float: left;
+//  margin: auto;
   min-width: 150px;
-  max-width: 240px;
+  vertical-align: middle;
+  padding: 10px 0px 10px 0px;
 }
 
 .footer-4 {
   display: block;
   width: 25%;
   float: left;
+//  margin: auto;
   min-width: 150px;
-  max-width: 240px;
+  vertical-align: middle;
+  padding: 10px 0px 10px 0px;
 }
 
 /*

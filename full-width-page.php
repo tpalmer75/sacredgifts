@@ -27,7 +27,7 @@ get_header(); ?>
 
 		<?php while (have_posts()) : the_post(); ?>
         
-        <?php get_template_part( 'loop-header' ); ?>
+        <?php //get_template_part( 'loop-header' ); ?>
         
 			<?php responsive_entry_before(); ?>
 			<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>       
