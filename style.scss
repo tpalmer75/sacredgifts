@@ -19,13 +19,18 @@ License URI: license.txt
 //=======================
 
 html {
-  background-color: black;
+  background-image:url('img/deco-tile-footer.png');
+  background-repeat:repeat;
 }
 
 body {
   background-image:url('img/deco-tile.png');
   background-repeat:repeat;
-  color: #777777;
+  color: #877A78;
+}
+
+body a {
+  color: #A2573A;
 }
 
 
@@ -42,7 +47,7 @@ body {
 }
 
 #header {
-  background: rgba(255,255,255,.4);
+  background: rgba(255,255,255,.6);
   position: relative;
 }
 
@@ -71,7 +76,7 @@ body {
 
 .menu a {
   border-left: 0px;
-  color: #4c4c4c;
+  color: #877A78;
   cursor: pointer;
   display: block;
   font-size: 13px;
@@ -90,12 +95,12 @@ body {
 .menu a:hover {
   background-color: transparent;
   background-image: none;
-  color: #ffffff;
+  color: #A2573A;
 }
 
 ul.menu > li:hover {
   background-color: transparent;
-  color: #ffffff;
+  color: #A2573A;
 
 }
 
@@ -105,10 +110,10 @@ ul.menu > li:hover {
 }
 
 .menu li li { //menu drop down item
-  background: #974B35;
+  background: rgba(255,255,255,.6);
   background-image: none;
   border: 0px;
-  color: #f7f2e9;
+  color: #877A78;
   filter: none;
   margin: -1px 0 1px 0;
   width: auto;
@@ -117,7 +122,7 @@ ul.menu > li:hover {
 .menu li li a { //menu drop down item link
   background: transparent !important;
   border: none;
-  color: #f7f2e9;
+  color: #877A78;
   font-size: 12px;
   font-weight: 400;
   height: auto;
@@ -157,34 +162,29 @@ ul.menu > li:hover {
   -moz-border-radius: 0px;
   background: rgba(255,255,255,.4);
   border-width: 0 0 0 0;
-//  background: transparent url('img/radial_gradient.svg') -5% -15% no-repeat;
   border-radius: 0px;
   margin: 0 0 20px;
   padding: 20px;
+  position: relative;
 }
 
-/*#tickets-button {
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  background-color: #974b35;
-  background-image: none;
-  border: 0 0 0 0;
-  border-color: none;
-  border-radius: 0px;
-  margin: 0 0 20px;
-  padding: 20px;
-  color: #f7f2e9;
-  min-height: 125px;
-  max-height: 125px;
+.widget-wrapper:after {
+  content: " ";
+  display: block;
+  height: 1px;
+  background-color: #A2573A;
+  width: 90%;
+  position: absolute;
+  bottom: 10px;
+  left: 5%;
 }
-*/
 
 #tickets-button {
   min-height: 125px;
 }
 
 #tickets-button a {
-  color: #777777;
+  color: #877A78;
 }
 
 #download-app {
@@ -214,8 +214,12 @@ ul.menu > li:hover {
   width: 67%;
 }
 
+#right h4 {
+  margin-top: 5px;
+}
+
  .testimonials-widget-testimonials2 {
-  color: #777777;
+  color: #877A78;
   overflow: scroll;
   min-height: 125px;
   max-height: 125px;
@@ -283,6 +287,13 @@ ul.menu > li:hover {
   margin-right: 0px;
 }
 
+#featured .grid.col-620.fit {
+  width: 68%;
+}
+
+#featured-image {
+  margin: 0 0 0 0;
+}
 //=================
 //      BODY
 //=================
@@ -290,7 +301,7 @@ ul.menu > li:hover {
 #wrapper {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  background-color: #c9c5c0;
+  background-color: rgba(255,255,255,.5);
   border: none;
   border-radius: 0px;
   clear: both;
@@ -301,6 +312,13 @@ ul.menu > li:hover {
 
 .post-meta {
   display: none;
+}
+
+.entry-title.post-title {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid #A2573A;
 }
 
 //===================
@@ -336,7 +354,7 @@ footer {
 }
 
 .site-info {
-  color: #f7f2e9;
+  color: #877A78;
   box-shadow: 0px -5px 20px #93928f;
 }
 
@@ -346,7 +364,7 @@ footer {
 }
 
 .site-info a {
-  color: #f7f2e9;
+  color: #877A78;
 }
 
 .footer {
@@ -359,7 +377,6 @@ footer {
   text-align: center;
   padding: 0px 20px 0px 20px;
   vertical-align: middle;
-  box-shadow: 0px -5px 20px #93928f;
 }
 
 
@@ -370,7 +387,7 @@ footer {
 //  margin: auto;
   min-width: 200px;
   vertical-align: middle;
-  padding: 10px 0px 0 0;
+  padding: 10px 0px 20px 0;
 }
 
 .footer-2 {
@@ -380,7 +397,7 @@ footer {
 //  margin: auto;
   min-width: 150px;
   vertical-align: middle;
-  padding: 10px 0px 0px 0px;
+  padding: 10px 0px 20px 0px;
 }
 
 .footer-3 {
@@ -389,7 +406,7 @@ footer {
   float: left;
   min-width: 150px;
   vertical-align: middle;
-  padding: 10px 0px 0px 0px;
+  padding: 10px 0px 20px 0px;
 }
 
 .footer-4 {
@@ -398,7 +415,7 @@ footer {
   float: left;
   min-width: 150px;
   vertical-align: middle;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0px 20px 0px;
 }
 
 /*
@@ -431,16 +448,45 @@ footer {
     margin-right: -480px;
   }
 
-  #featured-image {
-  margin: 0 0px 0 20px;
-  position: absolute;
-  right: 2px;
-  width: 652px;
-}
 
 }
 
-@media all and (max-width: 480px) { // anything 480px and smaller
+@media all and (max-width: 980px) { // anything 980px and smaller
+  #container {
+    max-width: 600px;
+  }
 
+  #featured p {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 18px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  max-width: 400px;
+  margin: auto;
+  }
+
+  #artist-title p {
+  font-size: 24px;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  }
+
+  #tickets-button {
+    font-size: 18px;
+    padding-top: 40px;
+  }
+
+  #right h4 {
+    font-size: 30px;
+    margin-top: 15px;
+  }
+
+}
+
+@media all and (max-width: 415px) { // anything 415px and smaller
+  #right h4 {
+    font-size: 26px;
+  }
 }
 

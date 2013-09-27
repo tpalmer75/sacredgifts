@@ -15,17 +15,23 @@ License URI: license.txt
 */
 /* line 21, style.scss */
 html {
-  background-color: black;
+  background-image: url("img/deco-tile-footer.png");
+  background-repeat: repeat;
 }
 
-/* line 25, style.scss */
+/* line 26, style.scss */
 body {
   background-image: url("img/deco-tile.png");
   background-repeat: repeat;
-  color: #777777;
+  color: #877A78;
 }
 
-/* line 36, style.scss */
+/* line 32, style.scss */
+body a {
+  color: #A2573A;
+}
+
+/* line 41, style.scss */
 #logo a {
   width: 250px;
   height: 65px;
@@ -33,19 +39,19 @@ body {
   background: transparent url("img/sacred_gifts_logo.svg") top left no-repeat;
 }
 
-/* line 44, style.scss */
+/* line 49, style.scss */
 #header {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.6);
   position: relative;
 }
 
-/* line 49, style.scss */
+/* line 54, style.scss */
 #header-width {
   max-width: 960px;
   margin: auto;
 }
 
-/* line 61, style.scss */
+/* line 66, style.scss */
 .menu {
   position: absolute;
   right: 20px;
@@ -56,10 +62,10 @@ body {
   margin: 0 auto;
 }
 
-/* line 72, style.scss */
+/* line 77, style.scss */
 .menu a {
   border-left: 0px;
-  color: #4c4c4c;
+  color: #877A78;
   cursor: pointer;
   display: block;
   font-size: 13px;
@@ -75,41 +81,41 @@ body {
   text-transform: uppercase;
 }
 
-/* line 90, style.scss */
+/* line 95, style.scss */
 .menu a:hover {
   background-color: transparent;
   background-image: none;
-  color: #ffffff;
+  color: #A2573A;
 }
 
-/* line 96, style.scss */
+/* line 101, style.scss */
 ul.menu > li:hover {
   background-color: transparent;
-  color: #ffffff;
+  color: #A2573A;
 }
 
-/* line 102, style.scss */
+/* line 107, style.scss */
 .menu .current_page_item a,
 .menu .current-menu-item a {
   background-color: transparent;
 }
 
-/* line 107, style.scss */
+/* line 112, style.scss */
 .menu li li {
-  background: #974B35;
+  background: rgba(255, 255, 255, 0.6);
   background-image: none;
   border: 0px;
-  color: #f7f2e9;
+  color: #877A78;
   filter: none;
   margin: -1px 0 1px 0;
   width: auto;
 }
 
-/* line 117, style.scss */
+/* line 122, style.scss */
 .menu li li a {
   background: transparent !important;
   border: none;
-  color: #f7f2e9;
+  color: #877A78;
   font-size: 12px;
   font-weight: 400;
   height: auto;
@@ -120,7 +126,7 @@ ul.menu > li:hover {
   white-space: nowrap;
 }
 
-/* line 131, style.scss */
+/* line 136, style.scss */
 .menu li li a:hover {
   background: #974B35 !important;
   border: none;
@@ -128,7 +134,7 @@ ul.menu > li:hover {
   filter: none;
 }
 
-/* line 142, style.scss */
+/* line 147, style.scss */
 .sub-header-menu {
   background-color: #974B35;
   border: 0px;
@@ -137,7 +143,7 @@ ul.menu > li:hover {
   margin: 0 auto;
 }
 
-/* line 155, style.scss */
+/* line 160, style.scss */
 .widget-wrapper {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -146,23 +152,21 @@ ul.menu > li:hover {
   border-radius: 0px;
   margin: 0 0 20px;
   padding: 20px;
+  position: relative;
 }
 
-/*#tickets-button {
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  background-color: #974b35;
-  background-image: none;
-  border: 0 0 0 0;
-  border-color: none;
-  border-radius: 0px;
-  margin: 0 0 20px;
-  padding: 20px;
-  color: #f7f2e9;
-  min-height: 125px;
-  max-height: 125px;
+/* line 171, style.scss */
+.widget-wrapper:after {
+  content: " ";
+  display: block;
+  height: 1px;
+  background-color: #A2573A;
+  width: 90%;
+  position: absolute;
+  bottom: 10px;
+  left: 5%;
 }
-*/
+
 /* line 182, style.scss */
 #tickets-button {
   min-height: 125px;
@@ -170,7 +174,7 @@ ul.menu > li:hover {
 
 /* line 186, style.scss */
 #tickets-button a {
-  color: #777777;
+  color: #877A78;
 }
 
 /* line 190, style.scss */
@@ -204,8 +208,13 @@ ul.menu > li:hover {
 }
 
 /* line 217, style.scss */
+#right h4 {
+  margin-top: 5px;
+}
+
+/* line 221, style.scss */
 .testimonials-widget-testimonials2 {
-  color: #777777;
+  color: #877A78;
   overflow: scroll;
   min-height: 125px;
   max-height: 125px;
@@ -215,13 +224,13 @@ ul.menu > li:hover {
   max-width: 500px;
 }
 
-/* line 229, style.scss */
+/* line 233, style.scss */
 .widget-title,
 .widget-title-home h3 {
   display: none;
 }
 
-/* line 238, style.scss */
+/* line 242, style.scss */
 #featured {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
@@ -232,12 +241,12 @@ ul.menu > li:hover {
   width: 99.893617021277%;
 }
 
-/* line 248, style.scss */
+/* line 252, style.scss */
 .featured-title {
   display: none;
 }
 
-/* line 252, style.scss */
+/* line 256, style.scss */
 #featured p {
   font-size: 14px;
   font-weight: 200;
@@ -248,7 +257,7 @@ ul.menu > li:hover {
   margin: auto;
 }
 
-/* line 262, style.scss */
+/* line 266, style.scss */
 #featured hr {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
@@ -258,28 +267,38 @@ ul.menu > li:hover {
   line-height: 1px;
 }
 
-/* line 271, style.scss */
+/* line 275, style.scss */
 #artist-title p {
   font-size: 24px;
   padding: 0 40px 0 40px;
 }
 
-/* line 276, style.scss */
+/* line 280, style.scss */
 #featured-subtitle img {
   vertical-align: middle;
   display: block;
 }
 
-/* line 282, style.scss */
+/* line 286, style.scss */
 #featured .grid.col-300 {
   margin-right: 0px;
 }
 
 /* line 290, style.scss */
+#featured .grid.col-620.fit {
+  width: 68%;
+}
+
+/* line 294, style.scss */
+#featured-image {
+  margin: 0 0 0 0;
+}
+
+/* line 301, style.scss */
 #wrapper {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  background-color: #c9c5c0;
+  background-color: rgba(255, 255, 255, 0.5);
   border: none;
   border-radius: 0px;
   clear: both;
@@ -288,41 +307,49 @@ ul.menu > li:hover {
   position: relative;
 }
 
-/* line 302, style.scss */
+/* line 313, style.scss */
 .post-meta {
   display: none;
 }
 
-/* line 310, style.scss */
+/* line 317, style.scss */
+.entry-title.post-title {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid #A2573A;
+}
+
+/* line 328, style.scss */
 blockquote {
   background-color: transparent;
   border-left-width: 0px;
 }
 
-/* line 333, style.scss */
+/* line 351, style.scss */
 footer {
   background-color: rgba(255, 255, 255, 0.25);
   border-bottom: 1px solid transparent;
 }
 
-/* line 338, style.scss */
+/* line 356, style.scss */
 .site-info {
-  color: #f7f2e9;
+  color: #877A78;
   box-shadow: 0px -5px 20px #93928f;
 }
 
-/* line 343, style.scss */
+/* line 361, style.scss */
 .site-info.footer p {
   position: relative;
   left: 50%;
 }
 
-/* line 348, style.scss */
+/* line 366, style.scss */
 .site-info a {
-  color: #f7f2e9;
+  color: #877A78;
 }
 
-/* line 352, style.scss */
+/* line 370, style.scss */
 .footer {
   display: block;
   max-width: 800px;
@@ -333,53 +360,52 @@ footer {
   text-align: center;
   padding: 0px 20px 0px 20px;
   vertical-align: middle;
-  box-shadow: 0px -5px 20px #93928f;
 }
 
-/* line 366, style.scss */
+/* line 383, style.scss */
 .footer-1 {
   display: block;
   width: 30%;
   float: left;
   min-width: 200px;
   vertical-align: middle;
-  padding: 10px 0px 0 0;
+  padding: 10px 0px 20px 0;
 }
 
-/* line 376, style.scss */
+/* line 393, style.scss */
 .footer-2 {
   display: block;
   width: 25%;
   float: left;
   min-width: 150px;
   vertical-align: middle;
-  padding: 10px 0px 0px 0px;
+  padding: 10px 0px 20px 0px;
 }
 
-/* line 386, style.scss */
+/* line 403, style.scss */
 .footer-3 {
   display: block;
   width: 20%;
   float: left;
   min-width: 150px;
   vertical-align: middle;
-  padding: 10px 0px 0px 0px;
+  padding: 10px 0px 20px 0px;
 }
 
-/* line 395, style.scss */
+/* line 412, style.scss */
 .footer-4 {
   display: block;
   width: 25%;
   float: left;
   min-width: 150px;
   vertical-align: middle;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0px 20px 0px;
 }
 
 /*
  * Image replacement
  */
-/* line 408, style.scss */
+/* line 425, style.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -388,7 +414,7 @@ footer {
   *text-indent: -9999px;
 }
 
-/* line 416, style.scss */
+/* line 433, style.scss */
 .ir:before {
   content: "";
   display: block;
@@ -397,17 +423,51 @@ footer {
 }
 
 @media all and (min-width: 980px) {
-  /* line 429, style.scss */
+  /* line 446, style.scss */
   .menu {
     right: 50%;
     margin-right: -480px;
   }
+}
+@media all and (max-width: 980px) {
+  /* line 455, style.scss */
+  #container {
+    max-width: 600px;
+  }
 
-  /* line 434, style.scss */
-  #featured-image {
-    margin: 0 0px 0 20px;
-    position: absolute;
-    right: 2px;
-    width: 652px;
+  /* line 459, style.scss */
+  #featured p {
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 18px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+  }
+
+  /* line 469, style.scss */
+  #artist-title p {
+    font-size: 24px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+  }
+
+  /* line 475, style.scss */
+  #tickets-button {
+    font-size: 18px;
+    padding-top: 40px;
+  }
+
+  /* line 480, style.scss */
+  #right h4 {
+    font-size: 30px;
+    margin-top: 15px;
+  }
+}
+@media all and (max-width: 415px) {
+  /* line 488, style.scss */
+  #right h4 {
+    font-size: 26px;
   }
 }
