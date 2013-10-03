@@ -178,6 +178,7 @@ ul.menu > li:hover {
 
 #tickets-button {
   min-height: 125px;
+  max-height: 125px;
 }
 
 #tickets-button a {
@@ -189,6 +190,10 @@ ul.menu > li:hover {
   max-height: 125px;
   text-align: center;
   margin: auto;
+}
+
+#download-app a {
+  color: #877A78;
 }
 
 #app-download-wrapper {
@@ -353,7 +358,7 @@ input[type="text"] {
   box-sizing: border-box;
   border: 0px solid #aaaaaa;
   border-bottom-color: #cccccc;
-  color: #706557;
+  color: #877A78;
   border-radius: 0px;
   cursor: text;
   margin: 0;
@@ -361,6 +366,10 @@ input[type="text"] {
   padding: 6px 8px;
   vertical-align: middle;
   width: 100%;
+}
+
+input[type='submit'] {
+  color: #877A78;
 }
 
 //==================
@@ -692,7 +701,7 @@ footer {
 
   .menu li {
     padding-left: 20px;
-    margin-left: 20px;
+    margin-left: 40px;
   }
 
   .js .main-nav a {
@@ -701,8 +710,12 @@ footer {
 
   .js .main-nav .menu li {
     float: none;
-    background-color: rgba(255,255,255,.8);
+    background-color: rgba(230,228,225,.9);
     border: none;
+  }
+
+  .js .main-nav .menu li li {
+    background-color: transparent;
   }
 
   .js .main-nav .menu li a,
@@ -712,7 +725,7 @@ footer {
     font-weight: normal;
     height: 45px;
     line-height: 45px;
-    padding: 0 15px;
+    padding: 0;
     border: none;
     background-color: transparent;
     background: none;
@@ -722,20 +735,36 @@ footer {
     cursor: pointer;
   }
 
+  .js .main-nav .menu li li li a {
+    background-color: transparent;
+    background: none;
+  }
+
+  .js .main-nav .menu li li a::before {    // Removes dashes on responsive menu
+    content: none;
+  }
+
   .js .menu .current_page_item a {
     background-color: transparent;
   }
 
-  #responsive_current_menu_item {
+  .js .main-nav #responsive_current_menu_item {
     color: #706557;
+    text-transform: uppercase;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .js .main-nav a#responsive_menu_button {
+    left: 96%
   }
 
   .js .main-nav .menu li a:hover,
   .js .main-nav .menu li li a:hover {
     background-image: none;
     filter: none;
-    background-color: #A2573A!important;
-    color: #FFF;
+    background-color: transparent !important;
+    color: #A2573A;
   }
 
   .page-item {
@@ -749,6 +778,12 @@ footer {
     position: static;
     visibility: visible;
     background-color: transparent;
+  }
+
+  .featured-subtitle h2 {
+    display: none;
+    padding: 0;
+    margin: 0;
   }
 
 }
