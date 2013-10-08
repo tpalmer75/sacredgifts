@@ -23,25 +23,26 @@ html {
 body {
   background-image: url("img/deco-tile.png");
   background-repeat: repeat;
+  font-family: "BerlingNovaTextPro", "Times New Roman", serif;
   color: #877A78;
 }
 
-/* line 32, style.scss */
+/* line 33, style.scss */
 body a {
   color: #A2573A;
 }
 
-/* line 36, style.scss */
+/* line 37, style.scss */
 body a:hover {
   color: rgba(162, 87, 58, 0.5);
 }
 
-/* line 40, style.scss */
+/* line 41, style.scss */
 ::selection {
   background: rgba(112, 101, 87, 0.5);
 }
 
-/* line 48, style.scss */
+/* line 49, style.scss */
 #logo a {
   width: 250px;
   height: 65px;
@@ -49,19 +50,19 @@ body a:hover {
   background: transparent url("img/sacred_gifts_logo.svg") top left no-repeat;
 }
 
-/* line 56, style.scss */
+/* line 57, style.scss */
 #header {
   background: rgba(255, 255, 255, 0.6);
   position: relative;
 }
 
-/* line 61, style.scss */
+/* line 62, style.scss */
 #header-width {
   max-width: 960px;
   margin: auto;
 }
 
-/* line 73, style.scss */
+/* line 74, style.scss */
 .menu {
   position: absolute;
   right: 20px;
@@ -70,16 +71,15 @@ body a:hover {
   background-image: none;
   clear: both;
   margin: 0 auto;
+  font-family: "StandardCT-Regular", Helvetica, Arial, sans-serif;
 }
 
-/* line 84, style.scss */
+/* line 86, style.scss */
 .menu a {
   border-left: 0px;
   color: #877A78;
   cursor: pointer;
   display: block;
-  font-size: 13px;
-  font-weight: 400;
   height: 45px;
   line-height: 45px;
   margin: 0;
@@ -89,30 +89,31 @@ body a:hover {
   text-shadow: none;
   white-space: nowrap;
   text-transform: uppercase;
+  font-size: 1em;
 }
 
-/* line 102, style.scss */
+/* line 103, style.scss */
 .menu a:hover {
   background-color: transparent;
   background-image: none;
   color: #A2573A;
 }
 
-/* line 108, style.scss */
+/* line 109, style.scss */
 ul.menu > li:hover {
   background-color: transparent;
   color: #A2573A;
 }
 
-/* line 114, style.scss */
+/* line 115, style.scss */
 .menu .current_page_item a,
 .menu .current-menu-item a {
   background-color: transparent;
 }
 
-/* line 119, style.scss */
+/* line 120, style.scss */
 .menu li li {
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.9);
   background-image: none;
   border: 0px;
   color: #877A78;
@@ -121,22 +122,22 @@ ul.menu > li:hover {
   width: auto;
 }
 
-/* line 129, style.scss */
+/* line 130, style.scss */
 .menu li li a {
   background: transparent !important;
   border: none;
   color: #877A78;
-  font-size: 12px;
-  font-weight: 400;
   height: auto;
   height: 20px;
   line-height: 20px;
   padding: 5px 10px;
   text-shadow: none;
   white-space: nowrap;
+  font-weight: 400;
+  font-size: 1em;
 }
 
-/* line 143, style.scss */
+/* line 144, style.scss */
 .menu li li a:hover {
   background: #974B35 !important;
   border: none;
@@ -144,7 +145,7 @@ ul.menu > li:hover {
   filter: none;
 }
 
-/* line 157, style.scss */
+/* line 158, style.scss */
 .widget-wrapper {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -156,7 +157,7 @@ ul.menu > li:hover {
   position: relative;
 }
 
-/* line 168, style.scss */
+/* line 169, style.scss */
 .widget-wrapper:after {
   content: " ";
   display: block;
@@ -168,18 +169,27 @@ ul.menu > li:hover {
   left: 5%;
 }
 
-/* line 179, style.scss */
+/* line 180, style.scss */
 #tickets-button {
   min-height: 125px;
   max-height: 125px;
+  font-size: 1.3em;
+  font-family: "StandardCT-RegularCond", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.5em;
+  line-height: 200%;
 }
 
-/* line 184, style.scss */
+/* line 189, style.scss */
+#tickets-button h1 {
+  margin-top: 10px;
+}
+
+/* line 193, style.scss */
 #tickets-button a {
   color: #877A78;
 }
 
-/* line 188, style.scss */
+/* line 197, style.scss */
 #download-app {
   min-height: 125px;
   max-height: 125px;
@@ -187,12 +197,12 @@ ul.menu > li:hover {
   margin: auto;
 }
 
-/* line 195, style.scss */
+/* line 204, style.scss */
 #download-app a {
   color: #877A78;
 }
 
-/* line 199, style.scss */
+/* line 208, style.scss */
 #app-download-wrapper {
   margin: auto;
   max-width: 400px;
@@ -200,7 +210,7 @@ ul.menu > li:hover {
   display: inline-block;
 }
 
-/* line 207, style.scss */
+/* line 216, style.scss */
 #left {
   height: 120px;
   float: left;
@@ -208,22 +218,25 @@ ul.menu > li:hover {
   padding-left: 10px;
 }
 
-/* line 214, style.scss */
+/* line 223, style.scss */
 #right {
   height: 100px;
   float: left;
   width: 60%;
 }
 
-/* line 220, style.scss */
+/* line 229, style.scss */
 #right h4 {
   margin-top: 5px;
+  font-family: StandardCT-RegularCond;
+  text-transform: uppercase;
+  font-size: 2em;
 }
 
-/* line 224, style.scss */
+/* line 237, style.scss */
 .testimonials-widget-testimonials2 {
   color: #877A78;
-  overflow: scroll;
+  overflow: hidden;
   min-height: 125px;
   max-height: 125px;
   padding: 0px;
@@ -232,13 +245,13 @@ ul.menu > li:hover {
   max-width: 500px;
 }
 
-/* line 236, style.scss */
+/* line 249, style.scss */
 .widget-title,
 .widget-title-home h3 {
   display: none;
 }
 
-/* line 245, style.scss */
+/* line 260, style.scss */
 #featured {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
@@ -249,23 +262,17 @@ ul.menu > li:hover {
   width: 99.893617021277%;
 }
 
-/* line 255, style.scss */
+/* line 270, style.scss */
 .featured-title {
   display: none;
 }
 
-/* line 259, style.scss */
+/* line 275, style.scss */
 #featured p {
   font-size: 14px;
-  font-weight: 200;
-  line-height: 18px;
-  padding: 0 0px 0 0px;
-  text-align: center;
-  max-width: 400px;
-  margin: auto;
 }
 
-/* line 269, style.scss */
+/* line 279, style.scss */
 #featured hr {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
@@ -275,34 +282,85 @@ ul.menu > li:hover {
   line-height: 1px;
 }
 
-/* line 278, style.scss */
+/* line 288, style.scss */
 #artist-title {
   font-size: 24px;
   padding: 0 40px 0 40px;
 }
 
-/* line 283, style.scss */
+/* line 293, style.scss */
 #featured-subtitle img {
   vertical-align: middle;
   display: block;
 }
 
-/* line 289, style.scss */
+/* line 299, style.scss */
 #featured .grid.col-300 {
   margin-right: 0px;
 }
 
-/* line 293, style.scss */
+/* line 303, style.scss */
 #featured .grid.col-620.fit {
   width: 68%;
 }
 
-/* line 297, style.scss */
+/* line 307, style.scss */
 #featured-image {
   margin: 0 0 0 0;
 }
 
-/* line 304, style.scss */
+/* line 311, style.scss */
+.featured-subtitle {
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 317, style.scss */
+.call-to-action {
+  display: none;
+}
+
+/* line 321, style.scss */
+.featured-date {
+  padding-top: 20px;
+}
+
+/* line 325, style.scss */
+.artist-title {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 331, style.scss */
+.bloch {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: "StandardCT-RegularCond", Helvetica, Arial, sans-serif;
+  font-size: 1.875em;
+  font-weight: 700;
+}
+
+/* line 339, style.scss */
+.hofmann {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "StandardCT-RegularCond", Helvetica, Arial, sans-serif;
+  font-size: 1.875em;
+  font-weight: 700;
+}
+
+/* line 347, style.scss */
+.schwartz {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: "StandardCT-RegularCond", Helvetica, Arial, sans-serif;
+  font-size: 1.875em;
+  font-weight: 700;
+}
+
+/* line 360, style.scss */
 #wrapper {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -316,26 +374,51 @@ ul.menu > li:hover {
   padding-right: 40px;
 }
 
-/* line 317, style.scss */
+/* line 373, style.scss */
 .post-meta {
   display: none;
 }
 
-/* line 321, style.scss */
+/* line 377, style.scss */
 .entry-title.post-title {
-  text-transform: uppercase;
   text-align: center;
   padding: 0 0 10px 0;
   border-bottom: 1px solid #A2573A;
+  font-family: "StandardCT-Light", Helvetica, Arial, sans-serif;
+  font-size: 3.5em;
+  margin-top: 0px;
 }
 
-/* line 332, style.scss */
+/* line 387, style.scss */
+h3 {
+  font-family: "StandardCT-RegularCond", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 392, style.scss */
+.exhibition-left {
+  width: 40%;
+  float: left;
+}
+
+/* line 397, style.scss */
+.exhibition-right {
+  width: 60%;
+  float: left;
+}
+
+/* line 402, style.scss */
+.wp-caption {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* line 410, style.scss */
 blockquote {
   background-color: transparent;
   border-left-width: 0px;
 }
 
-/* line 342, style.scss */
+/* line 420, style.scss */
 #respond {
   background-image: none;
   border: 0px;
@@ -343,7 +426,7 @@ blockquote {
   padding: 0px;
 }
 
-/* line 349, style.scss */
+/* line 427, style.scss */
 input[type="text"] {
   -moz-box-sizing: border-box;
   -moz-border-radius: 0px;
@@ -366,40 +449,40 @@ input[type="text"] {
   width: 100%;
 }
 
-/* line 371, style.scss */
+/* line 449, style.scss */
 input[type='submit'] {
   color: #877A78;
 }
 
-/* line 393, style.scss */
+/* line 471, style.scss */
 footer {
   background-color: rgba(255, 255, 255, 0.25);
   border-bottom: 1px solid transparent;
 }
 
-/* line 398, style.scss */
+/* line 476, style.scss */
 .site-info {
   color: #877A78;
   box-shadow: 0px -5px 20px #93928f;
 }
 
-/* line 403, style.scss */
+/* line 481, style.scss */
 .site-info.footer p {
   position: relative;
   left: 50%;
 }
 
-/* line 408, style.scss */
+/* line 486, style.scss */
 .site-info a {
   color: #877A78;
 }
 
-/* line 412, style.scss */
+/* line 490, style.scss */
 .site-info a:hover {
   color: #A2573A;
 }
 
-/* line 416, style.scss */
+/* line 494, style.scss */
 .footer {
   display: block;
   max-width: 800px;
@@ -412,7 +495,7 @@ footer {
   vertical-align: middle;
 }
 
-/* line 429, style.scss */
+/* line 507, style.scss */
 .footer-1 {
   display: block;
   width: 30%;
@@ -422,7 +505,7 @@ footer {
   padding: 10px 0px 20px 0;
 }
 
-/* line 439, style.scss */
+/* line 517, style.scss */
 .footer-2 {
   display: block;
   width: 25%;
@@ -432,7 +515,7 @@ footer {
   padding: 10px 0px 20px 0px;
 }
 
-/* line 449, style.scss */
+/* line 527, style.scss */
 .footer-3 {
   display: block;
   width: 20%;
@@ -442,7 +525,7 @@ footer {
   padding: 10px 0px 20px 0px;
 }
 
-/* line 458, style.scss */
+/* line 536, style.scss */
 .footer-4 {
   display: block;
   width: 25%;
@@ -455,7 +538,7 @@ footer {
 /*
  * Image replacement
  */
-/* line 471, style.scss */
+/* line 549, style.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -464,7 +547,7 @@ footer {
   *text-indent: -9999px;
 }
 
-/* line 479, style.scss */
+/* line 557, style.scss */
 .ir:before {
   content: "";
   display: block;
@@ -472,213 +555,71 @@ footer {
   height: 150%;
 }
 
-/* Corner radius */
-/* line 491, style.scss */
-.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
-  -moz-border-radius-topleft: 0px;
-  -webkit-border-top-left-radius: 0px;
-  -khtml-border-top-left-radius: 0px;
-  border-top-left-radius: 0px;
-}
-
-/* line 492, style.scss */
-.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
-  -moz-border-radius-topright: 0px;
-  -webkit-border-top-right-radius: 0px;
-  -khtml-border-top-right-radius: 0px;
-  border-top-right-radius: 0px;
-}
-
-/* line 493, style.scss */
-.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
-  -moz-border-radius-bottomleft: 0px;
-  -webkit-border-bottom-left-radius: 0px;
-  -khtml-border-bottom-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-}
-
-/* line 494, style.scss */
-.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
-  -moz-border-radius-bottomright: 0px;
-  -webkit-border-bottom-right-radius: 0px;
-  -khtml-border-bottom-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-}
-
-/* month/week/day buttons
-----------------------------------*/
-/* line 498, style.scss */
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-  border: 1px solid transparent;
-  background: none;
-  font-weight: normal;
-  color: #706557;
-}
-
-/* line 503, style.scss */
-.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
-  color: #706557;
-  text-decoration: none;
-}
-
-/* line 506, style.scss */
-.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
-  border: 1px solid transparent;
-  background: rgba(255, 255, 255, 0.8);
-  font-weight: normal;
-  color: #706557;
-}
-
-/* line 511, style.scss */
-.ui-state-hover a, .ui-state-hover a:hover {
-  color: #706557;
-  text-decoration: none;
-}
-
-/* line 514, style.scss */
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
-  border: 1px solid transparent;
-  background: rgba(255, 255, 255, 0.8);
-  font-weight: normal;
-  color: #706557;
-}
-
-/* line 519, style.scss */
-.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
-  color: #706557;
-  text-decoration: none;
-}
-
-/* line 523, style.scss */
-.ui-widget :active {
-  outline: none;
-}
-
-/*      Table
-------------------------------*/
-/* line 528, style.scss */
-.ui-widget {
-  font-family: Verdana,Arial,sans-serif;
-  font-size: 1.1em;
-}
-
-/* line 531, style.scss */
-.ui-widget .ui-widget {
-  font-size: 1em;
-}
-
-/* line 532, style.scss */
-.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
-  font-family: Verdana,Arial,sans-serif;
-  font-size: 1em;
-}
-
-/* line 535, style.scss */
-.ui-widget-content {
-  border: 1px solid transparent;
-  background: none;
-  color: #706557;
-}
-
-/* line 539, style.scss */
-.ui-widget-content a {
-  color: #706557;
-}
-
-/* line 540, style.scss */
-.ui-widget-header {
-  border: 0px;
-  background: rgba(255, 255, 255, 0.5);
-  color: #706557;
-  font-weight: normal;
-}
-
-/* line 545, style.scss */
-.ui-widget-header a {
-  color: #706557;
-}
-
-/* Horizontal Events
-------------------------------------------------------------------------*/
-/* line 552, style.scss */
-.fc-event-hori {
-  border-width: 0px 0;
-  margin-bottom: 3px;
-}
-
-/* line 557, style.scss */
-.fc-ltr .fc-event-hori.fc-event-start,
-.fc-rtl .fc-event-hori.fc-event-end {
-  border-left-width: 0px;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-}
-
-/* line 564, style.scss */
-.fc-ltr .fc-event-hori.fc-event-end,
-.fc-rtl .fc-event-hori.fc-event-start {
-  border-right-width: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-}
-
-/* line 571, style.scss */
-.ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
-  border: 1px solid transparent;
-  background: rgba(255, 255, 255, 0.5);
-  font-weight: normal;
-  color: #706557;
-}
-
 @media all and (min-width: 980px) {
-  /* line 583, style.scss */
+  /* line 570, style.scss */
   .menu {
     right: 50%;
     margin-right: -480px;
   }
 }
 @media all and (max-width: 980px) {
-  /* line 592, style.scss */
+  /* line 579, style.scss */
   #container {
     max-width: 600px;
   }
 
-  /* line 596, style.scss */
+  /* line 583, style.scss */
   #featured p {
     font-size: 14px;
     font-weight: 200;
     line-height: 18px;
-    padding: 10px 10px 10px 10px;
     text-align: center;
     max-width: 400px;
     margin: auto;
   }
 
-  /* line 606, style.scss */
+  /* line 592, style.scss */
   #artist-title {
     font-size: 24px;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
   }
 
-  /* line 612, style.scss */
-  #tickets-button {
-    font-size: 18px;
-    padding-top: 40px;
+  /* line 598, style.scss */
+  #tickets-button h1 {
+    padding-top: 20px;
   }
 
-  /* line 617, style.scss */
+  /* line 602, style.scss */
   #right h4 {
     font-size: 30px;
     margin-top: 15px;
   }
 
-  /* line 622, style.scss */
+  /* line 607, style.scss */
   .js .main-nav {
     position: relative;
     background-color: transparent;
     clear: both;
     margin: 0 auto;
+  }
+
+  /* line 614, style.scss */
+  .exhibition-left {
+    width: 350px;
+    margin: auto;
+    float: none;
+  }
+
+  /* line 620, style.scss */
+  .exhibition-right {
+    width: 100%;
+    min-width: none;
+  }
+
+  /* line 625, style.scss */
+  .front-page-feature {
+    padding-top: 0px;
   }
 }
 @media all and (max-width: 790px) {
@@ -845,16 +786,9 @@ footer {
     visibility: visible;
     background-color: transparent;
   }
-
-  /* line 783, style.scss */
-  .featured-subtitle h2 {
-    display: none;
-    padding: 0;
-    margin: 0;
-  }
 }
 @media all and (max-width: 600px) {
-  /* line 794, style.scss */
+  /* line 788, style.scss */
   .footer {
     display: block;
     max-width: 800px;
@@ -867,7 +801,7 @@ footer {
     vertical-align: middle;
   }
 
-  /* line 807, style.scss */
+  /* line 801, style.scss */
   .footer-1 {
     display: block;
     width: 100%;
@@ -878,7 +812,7 @@ footer {
     padding: 20px 0 10px 0;
   }
 
-  /* line 817, style.scss */
+  /* line 811, style.scss */
   .footer-2 {
     display: block;
     width: 100%;
@@ -889,7 +823,7 @@ footer {
     padding: 10px 0 10px 0;
   }
 
-  /* line 827, style.scss */
+  /* line 821, style.scss */
   .footer-3 {
     display: block;
     width: 100%;
@@ -900,7 +834,7 @@ footer {
     padding: 10px 0 10px 0;
   }
 
-  /* line 837, style.scss */
+  /* line 831, style.scss */
   .footer-4 {
     display: block;
     width: 100%;
@@ -911,8 +845,21 @@ footer {
     padding: 10px 0 20px 0;
   }
 }
+@media all and (max-width: 485px) {
+  /* line 846, style.scss */
+  #tickets-button h1 {
+    padding-top: 10px;
+    margin-top: 0px;
+  }
+}
+@media all and (max-width: 465px) {
+  /* line 852, style.scss */
+  .exhibition-left {
+    width: 100%;
+  }
+}
 @media all and (max-width: 415px) {
-  /* line 851, style.scss */
+  /* line 860, style.scss */
   #right h4 {
     font-size: 26px;
   }

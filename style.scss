@@ -26,6 +26,7 @@ html {
 body {
   background-image:url('img/deco-tile.png');
   background-repeat:repeat;
+  font-family: "BerlingNovaTextPro", "Times New Roman", serif;
   color: #877A78;
 }
 
@@ -78,6 +79,7 @@ body a:hover {
   background-image: none;
   clear: both;
   margin: 0 auto;
+  font-family: "StandardCT-Regular", Helvetica, Arial, sans-serif;
 }
 
 
@@ -86,8 +88,6 @@ body a:hover {
   color: #877A78;
   cursor: pointer;
   display: block;
-  font-size: 13px;
-  font-weight: 400;
   height: 45px;
   line-height: 45px;
   margin: 0;
@@ -97,6 +97,7 @@ body a:hover {
   text-shadow: none;
   white-space: nowrap;
   text-transform: uppercase;
+  font-size: 1em;
 }
 
 .menu a:hover {
@@ -117,7 +118,7 @@ ul.menu > li:hover {
 }
 
 .menu li li { //menu drop down item
-  background: rgba(255,255,255,.6);
+  background: rgba(255,255,255,.9);
   background-image: none;
   border: 0px;
   color: #877A78;
@@ -130,14 +131,14 @@ ul.menu > li:hover {
   background: transparent !important;
   border: none;
   color: #877A78;
-  font-size: 12px;
-  font-weight: 400;
   height: auto;
   height: 20px;
   line-height: 20px;
   padding: 5px 10px;
   text-shadow: none;
   white-space: nowrap;
+  font-weight:400;
+  font-size: 1em;
 }
 
 .menu li li a:hover { //menu drop down item selected
@@ -179,6 +180,14 @@ ul.menu > li:hover {
 #tickets-button {
   min-height: 125px;
   max-height: 125px;
+  font-size: 1.3em;
+  font-family: "StandardCT-RegularCond", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.5em;
+  line-height: 200%;
+}
+
+#tickets-button h1 {
+  margin-top: 10px;
 }
 
 #tickets-button a {
@@ -219,11 +228,15 @@ ul.menu > li:hover {
 
 #right h4 {
   margin-top: 5px;
+  font-family: StandardCT-RegularCond;
+  text-transform: uppercase;
+  font-size: 2em;
 }
+
 
  .testimonials-widget-testimonials2 {
   color: #877A78;
-  overflow: scroll;
+  overflow: hidden;
   min-height: 125px;
   max-height: 125px;
   padding: 0px;
@@ -237,6 +250,8 @@ ul.menu > li:hover {
 .widget-title-home h3 {
   display: none
 }
+
+
 //====================
 //  FEATURED CONTENT
 //====================
@@ -256,14 +271,9 @@ ul.menu > li:hover {
   display:none
 }
 
+
 #featured p {
-  font-size: 14px;
-  font-weight: 200;
-  line-height: 18px;
-  padding: 0 0px 0 0px;
-  text-align: center;
-  max-width: 400px;
-  margin: auto;
+  font-size:14px;
 }
 
 #featured hr {
@@ -297,6 +307,52 @@ ul.menu > li:hover {
 #featured-image {
   margin: 0 0 0 0;
 }
+
+.featured-subtitle {
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+.call-to-action {
+  display:none;
+}
+
+.featured-date {
+  padding-top:20px;
+}
+
+.artist-title {
+  text-align: center;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.bloch {
+  padding-top: 20px;
+  padding-bottom:10px;
+  font-family: "StandardCT-RegularCond", Helvetica, Arial, sans-serif;
+  font-size: 1.875em;
+  font-weight:700;
+}
+
+.hofmann {
+  padding-top:10px;
+  padding-bottom:10px;
+  font-family: "StandardCT-RegularCond", Helvetica, Arial, sans-serif;
+  font-size: 1.875em;
+  font-weight:700;
+}
+
+.schwartz {
+  padding-top:10px;
+  padding-bottom:20px;
+  font-family: "StandardCT-RegularCond", Helvetica, Arial, sans-serif;
+  font-size:1.875em;
+  font-weight:700;
+}
+
+
 //=================
 //      BODY
 //=================
@@ -319,10 +375,32 @@ ul.menu > li:hover {
 }
 
 .entry-title.post-title {
-  text-transform: uppercase;
   text-align: center;
   padding: 0 0 10px 0;
   border-bottom: 1px solid #A2573A;
+  font-family: "StandardCT-Light", Helvetica, Arial, sans-serif;
+  font-size:3.5em;
+  margin-top:0px;
+}
+
+
+h3 {
+  font-family: "StandardCT-RegularCond", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.exhibition-left {
+  width: 40%;
+  float: left;
+}
+
+.exhibition-right {
+  width: 60%;
+  float: left;
+}
+
+.wp-caption {
+  background:rgba(255,255,255,.5);
 }
 
 //===================
@@ -483,97 +561,6 @@ footer {
     height: 150%;
 }
 
-//==============================================
-//                TICKET ESPRESSO
-//==============================================
-
-/* Corner radius */
-.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl { -moz-border-radius-topleft: 0px; -webkit-border-top-left-radius: 0px; -khtml-border-top-left-radius: 0px; border-top-left-radius: 0px; }
-.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr { -moz-border-radius-topright: 0px; -webkit-border-top-right-radius: 0px; -khtml-border-top-right-radius: 0px; border-top-right-radius: 0px; }
-.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl { -moz-border-radius-bottomleft: 0px; -webkit-border-bottom-left-radius: 0px; -khtml-border-bottom-left-radius: 0px; border-bottom-left-radius: 0px; }
-.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br { -moz-border-radius-bottomright: 0px; -webkit-border-bottom-right-radius: 0px; -khtml-border-bottom-right-radius: 0px; border-bottom-right-radius: 0px; }
-
-/* month/week/day buttons
-----------------------------------*/
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { 
-  border: 1px solid transparent; 
-  background: none;
-  font-weight: normal; color: #706557; 
-}
-.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { 
-  color: #706557; 
-  text-decoration: none; }
-.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
-  border: 1px solid transparent; 
-  background: rgba(255,255,255,.8);
-  font-weight: normal; color: #706557; 
-}
-.ui-state-hover a, .ui-state-hover a:hover { 
-  color: #706557; text-decoration: none; 
-}
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { 
-  border: 1px solid transparent; 
-  background: rgba(255,255,255,.8);
-  font-weight: normal; color: #706557; 
-}
-.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { 
-  color: #706557; 
-  text-decoration: none; 
-}
-.ui-widget :active { outline: none; }
-
-/*      Table
-------------------------------*/
-
-.ui-widget { 
-    font-family: Verdana,Arial,sans-serif; 
-    font-size: 1.1em; }
-.ui-widget .ui-widget { font-size: 1em; }
-.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { 
-    font-family: Verdana,Arial,sans-serif; 
-    font-size: 1em; }
-.ui-widget-content {   // Main Table Background
-  border: 1px solid transparent; 
-  background: none;
-  color: #706557; }
-.ui-widget-content a { color: #706557; }
-.ui-widget-header {   // Date styles
-  border: 0px;
-  background: rgba(255,255,255,.5);
-  color: #706557; 
-  font-weight: normal; }
-.ui-widget-header a { 
-  color: #706557; 
-}
-
-/* Horizontal Events
-------------------------------------------------------------------------*/
-
-.fc-event-hori {
-  border-width: 0px 0;
-  margin-bottom: 3px;
-  }
-
-.fc-ltr .fc-event-hori.fc-event-start,
-.fc-rtl .fc-event-hori.fc-event-end {
-  border-left-width: 0px;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  }
-
-.fc-ltr .fc-event-hori.fc-event-end,
-.fc-rtl .fc-event-hori.fc-event-start {
-  border-right-width: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  }
-  
-.ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
-  border: 1px solid transparent;
-  background: rgba(255,255,255,.5);
-  font-weight: normal;
-  color: #706557;
-}
 
 //======================
 //     Full Size
@@ -597,7 +584,6 @@ footer {
   font-size: 14px;
   font-weight: 200;
   line-height: 18px;
-  padding: 10px 10px 10px 10px;
   text-align: center;
   max-width: 400px;
   margin: auto;
@@ -609,9 +595,8 @@ footer {
   margin: 0 0 0 0;
   }
 
-  #tickets-button {
-    font-size: 18px;
-    padding-top: 40px;
+  #tickets-button h1 {
+    padding-top: 20px;
   }
 
   #right h4 {
@@ -624,6 +609,21 @@ footer {
     background-color: transparent;
     clear: both;
     margin: 0 auto;
+  }
+
+  .exhibition-left {
+    width:350px;
+    margin:auto;
+    float:none;
+  }
+
+  .exhibition-right {
+    width:100%;
+    min-width:none;
+  }
+
+  .front-page-feature {
+    padding-top:0px;
   }
 
 }
@@ -780,12 +780,6 @@ footer {
     background-color: transparent;
   }
 
-  .featured-subtitle h2 {
-    display: none;
-    padding: 0;
-    margin: 0;
-  }
-
 }
 
 @media all and (max-width: 600px) {
@@ -844,6 +838,21 @@ footer {
     padding: 10px 0 20px 0;
   }
 
+}
+
+
+@media all and (max-width: 485px) {
+
+  #tickets-button h1 {
+    padding-top:10px;
+    margin-top:0px;
+  }
+}
+@media all and (max-width: 465px) {
+  .exhibition-left {
+    width:100%;
+  }
+  
 }
 
 
